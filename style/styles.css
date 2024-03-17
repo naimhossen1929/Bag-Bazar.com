@@ -233,6 +233,21 @@ main{
     transform: scale(1.25);
     border: none;
 }
+/* footer section start */
+
+footer{
+    background: var(--primary-color);
+    text-align: center;
+}
+.foot-container{
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-container img{
+    width: 3%;
+}
 
 
 
