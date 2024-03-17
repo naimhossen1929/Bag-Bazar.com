@@ -44,7 +44,11 @@
     .item-container{
         margin: 0 1.25rem;
     }
-    
+    /* Gallery section */
+    .gallery{
+        grid-template-columns: 1fr;
+        margin: 0 1.25rem;
+    }    
 }
 
 /* -----------> Tab or Medium Devices <------------------ */
@@ -80,5 +84,22 @@
         grid-template-columns: repeat(2, 1fr);
         margin: 0 1.5rem;
     }
+    /* gallery section */
+    .gallery{
+        grid-template-columns: repeat(2,1fr);
+        margin: 0 1.5rem;
+    }  
+}
 
+/* Large devices  */
+    
+@media screen and (min-width:769px) and (max-width:992px){
+    .gallery{
+        grid-template-columns: repeat(3,1fr);
+        margin: 0 2rem;
+    } 
+    .img-div{
+        width: 12rem;
+        height: 12rem;
+    }
 }
