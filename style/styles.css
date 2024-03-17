@@ -1,0 +1,152 @@
+/* -----------Shared Styles ---------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+:root{
+    --primary-color: #6420AA;
+    --secondary-color:#FF3EA5;
+    --background-color:#e6e9eb;
+    }
+
+.primary-btn{
+    padding: 0.8rem 1.25rem;
+    background-color: transparent;
+    border: 2px solid var(--secondary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.5s;
+}   
+    
+
+/*-------------Nav Bar section Styles Start-------------------  */
+
+header{
+    background-color:var(--primary-color);
+}
+nav{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    width: 50%;
+    cursor: pointer;
+}
+.logo-container img{
+    width: 15%;
+}
+.logo-container h2{
+    color: black;
+    font-size: 2.5rem;
+}
+.logo-container h2 > span{
+    color: var(--secondary-color);
+}
+.navbar-container{
+width: 50%;
+}
+.navbar-container ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-container ul > li {
+    list-style: none;
+    
+}
+.navbar-container ul li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+    transition: 0.5s;
+
+}
+.navbar-container ul li .login{
+    padding: 0.5rem 0.9rem;
+    border-radius: 0.5rem;
+    border: none;
+    color: black;
+    font-size: 1.25rem;
+    background-color: var(--secondary-color);
+    transition: 0.3s;
+}
+.navbar-container a:hover{
+    color: black;
+    font-weight: 600;
+}
+.navbar-container ul li .login:hover{
+    background-color: white;
+    border: 1px solid black;
+    font-weight: 600;
+}
+
+/* -----------> Main Styles Start <---------------- */
+
+main{
+    max-width: 1200px;
+    margin: 3rem auto;
+}
+
+/* -----------------------Banner section styles start------------------ */
+.banner{
+    background: var(--background-color);
+    padding: 1.25rem;
+    display: flex;
+    align-items: center;
+    border-radius: 0.8rem;
+    gap: 1rem;
+}
+.banner-content, .banner-img{
+    width: 50%;
+}
+.banner-content{
+    text-align: center;
+}
+.banner-img img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+.banner-content h2{
+    font-size: 4rem;
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 0.4rem;
+}
+.banner-content h3{
+    font-size: 2.5rem;
+    font-family: "Kaushan Script", cursive;
+    margin-bottom: 0.4rem;
+}
+.banner-content .icons {
+    font-size: 2.5rem;
+    margin-bottom: 0.4rem;
+}
+
+.fa-square-facebook,.fa-square-x-twitter,.fa-square-youtube{
+    margin-right: 0.4rem;
+}
+.btn-margin{
+    margin-right: 0.5rem;
+}
+.primary-btn:hover{
+    background-color: var(--secondary-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    font-weight: 500;
+    color: white;
+}  
+
+

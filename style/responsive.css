@@ -1,0 +1,72 @@
+/*--------------------> Responsive Query <------------------ */
+/* -------------> Mobile Devices <------------------ */
+
+@media screen  and (max-width: 576px){
+    nav,
+    .navbar-container ul
+    {
+        flex-direction: column;
+    }
+    nav{
+        gap: 1rem;
+    }
+    .logo-container,.navbar-container{
+        width: 100%;
+    }
+    .logo-container{
+        justify-content: center;
+    }
+    .navbar-container ul > li{
+        margin-bottom: .8rem;
+    }
+    .navbar-container ul{
+        gap: 0.8rem;
+    }
+    .nav-icon{
+        background-color: #FF3EA5;
+        border-radius: 0.5rem;
+        padding: 0.5rem 0.9rem;
+    }
+
+    /* banner section */
+    .banner{ 
+        flex-direction: column;
+        gap: 1.25rem;
+        margin:0 1.5rem;
+    }
+    .banner-content, .banner-img{
+        width: 100%;
+    }
+    
+}
+
+/* -----------> Tab or Medium Devices <------------------ */
+
+@media screen and (min-width:577px) and (max-width:768px) {
+    nav,
+    .navbar-container ul
+    {
+        flex-direction: column;
+    }
+    nav{
+        gap: 1rem;
+    }
+    .logo-container,.navbar-container{
+        width: 100%;
+    }
+    .logo-container{
+        justify-content: center;
+    }
+    .navbar-container ul > li{
+        margin-bottom: .8rem;
+    }
+    .navbar-container ul{
+        gap: 0.8rem;
+    }
+    .nav-icon{
+        background-color: #FF3EA5;
+        border-radius: 0.5rem;
+        padding: 0.5rem 0.9rem;
+    }
+    
+}
