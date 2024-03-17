@@ -37,6 +37,13 @@
     .banner-content, .banner-img{
         width: 100%;
     }
+    /* Products section */
+    .product{
+        grid-template-columns: 1fr;
+    }
+    .item-container{
+        margin: 0 1.25rem;
+    }
     
 }
 
@@ -68,5 +75,10 @@
         border-radius: 0.5rem;
         padding: 0.5rem 0.9rem;
     }
-    
+    /* product section */
+    .product{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 1.5rem;
+    }
+
 }
