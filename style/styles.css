@@ -175,7 +175,8 @@ main{
     align-items: center;
 }
 .item-img img{
-    width: 100%;
+    width: 17.5rem;
+    height: 19rem;
     object-fit: cover;
     border-radius: .4rem;
 }
